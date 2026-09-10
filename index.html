@@ -17,11 +17,11 @@
         .page-wrapper {
             min-height: 100vh;
             position: relative;
-            padding-bottom: 140px;
+            padding-bottom: 180px;
         }
 
         .main-content {
-            min-height: calc(100vh - 140px);
+            min-height: calc(100vh - 180px);
         }
 
         .coming-soon {
@@ -35,6 +35,19 @@
 
         .subtle-link:hover {
             text-decoration: underline;
+        }
+
+        .binkbox-image {
+            position: absolute;
+            bottom: 105px;
+            left: 50%;
+            transform: translateX(-50%);
+
+            width: 110px;
+            height: 110px;
+            object-fit: contain;
+
+            border-radius: 20px;
         }
 
         .bottom-info {
@@ -72,9 +85,16 @@
                     Selfstorage oplossing in Turnhout
                 </h2>
 
-
             </div>
         </main>
+
+
+        <img
+            src="binkbox-white.jpg"
+            alt="BinkBox"
+            class="binkbox-image"
+        >
+
 
         <div class="bottom-info text-center text-secondary px-3">
             Onze vestiging in Mol:
